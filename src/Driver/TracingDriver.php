@@ -2,6 +2,8 @@
 
 namespace Spoll\Driver;
 
+use Spoll\AbstractDriver;
+
 /**
  * Class TracingDriver
  *

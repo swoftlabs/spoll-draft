@@ -1,4 +1,8 @@
-# ev loop demo
+# ev loop draft
+
+`spoll` - event loop driver library
+
+## 相关扩展
 
 提供事件循环相关扩展
 

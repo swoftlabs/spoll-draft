@@ -2,6 +2,7 @@
 
 namespace Spoll\Driver;
 
+use Spoll\AbstractDriver;
 use function function_exists;
 
 /**
