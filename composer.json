@@ -1,0 +1,27 @@
+{
+  "name": "inhere/ev-loop-demo",
+  "description": "test",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "inhere",
+      "email": "in.798@qq.com"
+    }
+  ],
+  "require": {
+    "amphp/parallel": "^1.2",
+    "react/http": "^0.8.6",
+    "workerman/workerman": "^3.5",
+    "react/socket": "^1.3",
+    "amphp/http-server": "^1.1",
+    "amphp/websocket-server": "^1.0",
+    "amphp/log": "^1.1"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
