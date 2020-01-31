@@ -3,9 +3,9 @@
 namespace Spoll;
 
 use RuntimeException;
-use Spoll\Driver\AbstractDriver;
 use Spoll\Driver\ExtEvDriver;
 use Spoll\Driver\ExtEventDriver;
+use Spoll\Driver\ExtUvDriver;
 use Spoll\Driver\NativeDriver;
 use Spoll\Driver\TracingDriver;
 
@@ -22,6 +22,7 @@ final class DriverFactory
     private static $drivers = [
         'event'  => ExtEventDriver::class,
         'ev'     => ExtEvDriver::class,
+        'uv'     => ExtUvDriver::class,
         'native' => NativeDriver::class,
     ];
 

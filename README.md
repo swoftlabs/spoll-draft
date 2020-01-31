@@ -16,7 +16,7 @@
 
 ### Workerman
 
-- https://github.com/walkor/Workerman (base on steam_select, ext-ev, ext-event)
+- https://github.com/walkor/Workerman Base on steam_select, ext-ev, ext-event
 
 ```text
 PHP 5.3 or Higher
@@ -27,7 +27,7 @@ Event extension recommended for better performance
 
 ### reactphp
 
-- https://github.com/reactphp/event-loop (base on steam_select, ext-ev, ext-event)
+- https://github.com/reactphp/event-loop Base on steam_select, ext-ev, ext-event
 - https://github.com/reactphp/http
 - https://github.com/reactphp/socket
 - https://github.com/reactphp/stream
@@ -36,8 +36,8 @@ Event extension recommended for better performance
 
 ### amphp
 
-- https://github.com/amphp/amp
-- https://github.com/amphp/parallel
+- https://github.com/amphp/amp `7.0+`, Base on steam_select, ext-ev, ext-event.
+- https://github.com/amphp/parallel process (ext-pcntl), thread (ext-pthreads, ext-parallel)
 - https://github.com/amphp/http-server
 - https://github.com/amphp/websocket-server
 
